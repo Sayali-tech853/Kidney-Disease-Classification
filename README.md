@@ -20,16 +20,18 @@
 Clone the repository
 
 ```bash
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+hhttps://github.com/Sayali-tech853/Kidney-Disease-Classification
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a Git bash environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+python -m venv venv
+
 ```
 
 ```bash
-conda activate cnncls
+venv\Scripts\activate  # On Windows (Git Bash)
+
 ```
 
 
@@ -40,16 +42,13 @@ pip install -r requirements.txt
 
 ```bash
 # Finally run the following command
-python app.py
+python main.py
 ```
 
 Now,
 ```bash
 open up you local host and port
 ```
-
-
-
 
 
 
